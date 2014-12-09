@@ -1,8 +1,8 @@
 #
-# ElasticSearch v0.90.13 Dockerfile
+# ElasticSearch v1.41.1 Dockerfile
 #
 
-FROM phusion/baseimage:0.9.11
+FROM phusion/baseimage:0.9.15
 MAINTAINER Geoffroy Aubry <gaubry@hi-media.com>
 
 # Install Java:
@@ -13,7 +13,7 @@ RUN \
   DEBIAN_FRONTEND=noninteractive apt-get install -y oracle-java7-installer
 
 # Install ElasticSearch:
-ENV ES_VERSION 0.90.13
+ENV ES_VERSION 1.4.1
 RUN cd /tmp && \
   wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-${ES_VERSION}.tar.gz && \
   tar xvzf elasticsearch-${ES_VERSION}.tar.gz && \
