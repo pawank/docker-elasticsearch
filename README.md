@@ -1,6 +1,6 @@
 # ElasticSearch Dockerfile
 
-[ElasticSearch](http://www.elasticsearch.org/) v0.90.13 for [Docker](https://www.docker.com/).
+[ElasticSearch](http://www.elasticsearch.org/) v1.4.1 for [Docker](https://www.docker.com/).
 
 
 ### Why this Docker?
