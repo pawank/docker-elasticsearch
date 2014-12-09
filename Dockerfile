@@ -3,7 +3,7 @@
 #
 
 FROM phusion/baseimage:0.9.15
-MAINTAINER Geoffroy Aubry <gaubry@hi-media.com>
+MAINTAINER Pawan Kumar <pawan.kumar@gmail.com>
 
 # Install Java:
 RUN \
